@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 633d7d188330c4bd78d5886a214e1576
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - coinprefab: {instanceID: 0}
+  - cardprefab: {instanceID: 0}
+  - lockPrefab: {instanceID: 0}
+  - read: {instanceID: 0}
+  - type7: {instanceID: 0}
+  - type13: {instanceID: 0}
+  - type18: {instanceID: 0}
+  - type20: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
