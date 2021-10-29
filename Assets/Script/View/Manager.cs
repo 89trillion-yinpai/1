@@ -26,15 +26,12 @@ public class Manager : MonoBehaviour
             //判断是金币类型的ui搭建
             if (read.item[i].type == "2") 
             {
-                Debug.Log(read.item[i].type);
                 coinprefab = Instantiate(coinprefab,transform);
-                 //coinprefab.SetActive((true));
             }
             else
             {
                 //创建卡牌对象
                 cardprefab=Instantiate(cardprefab,transform);
-                Debug.Log(cardprefab.name);
                 foreach (Transform obj in cardprefab.GetComponentsInChildren<Transform>(true))
                 {
                     if (obj.name == "cards")
