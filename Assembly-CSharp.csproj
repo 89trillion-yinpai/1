@@ -58,21 +58,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ChaJian\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\ChaJian\Modules\DOTweenModuleEPOOutline.cs" />
-     <Compile Include="Assets\ChaJian\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\ChaJian\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\ChaJian\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\ChaJian\Modules\DOTweenModuleUI.cs" />
-     <Compile Include="Assets\ChaJian\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\ChaJian\Modules\DOTweenModuleUtils.cs" />
-     <Compile Include="Assets\Script\Controller\Buycoin.cs" />
-     <Compile Include="Assets\Script\Controller\Duqu.cs" />
-     <Compile Include="Assets\Script\Controller\Move.cs" />
-     <Compile Include="Assets\Script\Model\Read.cs" />
-     <Compile Include="Assets\Script\View\Manager.cs" />
-     <None Include="Assets\Art\WW4_Effects_Sub\Effect\Soldier\FrostArcher\FrostArcher_effect\shader\Bingdong_vogeo.shader" />
-     <None Include="Assets\ChaJian\Changelog.txt" />
+     <Compile Include="Assets\Function1\02.ChaJian\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Function1\02.ChaJian\Modules\DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets\Function1\02.ChaJian\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Function1\02.ChaJian\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Function1\02.ChaJian\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Function1\02.ChaJian\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Function1\02.ChaJian\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Function1\02.ChaJian\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Function1\06.Scripts\Controller\Buycoin.cs" />
+     <Compile Include="Assets\Function1\06.Scripts\Controller\Duqu.cs" />
+     <Compile Include="Assets\Function1\06.Scripts\Controller\Move.cs" />
+     <Compile Include="Assets\Function1\06.Scripts\Model\Read.cs" />
+     <Compile Include="Assets\Function1\06.Scripts\View\Manager.cs" />
+     <None Include="Assets\Function1\04.Resources\WW4_Effects_Sub\Effect\Soldier\FrostArcher\FrostArcher_effect\shader\Bingdong_vogeo.shader" />
+     <None Include="Assets\Function1\02.ChaJian\Changelog.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/yinpai/每日精选/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -280,11 +280,11 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
- <Reference Include="DOTween">
- <HintPath>/Users/yinpai/每日精选/Assets/ChaJian/DOTween.dll</HintPath>
- </Reference>
  <Reference Include="nunit.framework">
  <HintPath>/Users/yinpai/每日精选/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/yinpai/每日精选/Assets/Function1/02.ChaJian/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
