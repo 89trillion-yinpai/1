@@ -10,16 +10,22 @@ namespace Assets.Function1._06.Scripts.Controller
     public class Move : Duqu
     {
         [SerializeField] public Text Wallet;
+
         //金币起点坐标
         [SerializeField] public Transform begin;
+
         //飞行终点坐标
         public Transform end;
         private int _i = 0;
+
         public Buycoin buyCoin;
+
         //金币预制物
         public GameObject prefab;
+
         //列表获取金币
         private List<GameObject> qians = new List<GameObject>();
+
         public void Kaishi()
         {
             _i++;
@@ -27,10 +33,11 @@ namespace Assets.Function1._06.Scripts.Controller
             {
                 _i = 3;
             }
+
             for (int j = 0; j < _i * 5; j++)
             {
                 //生成金币
-                qians.Add(GameObject.Instantiate(prefab,begin));
+                qians.Add(GameObject.Instantiate(prefab, begin));
                 //金币显示
                 qians[qians.Count - 1].GetComponent<Image>().enabled = true;
                 //金币坐标
@@ -63,14 +70,15 @@ namespace Assets.Function1._06.Scripts.Controller
                             {
                                 Destroy((qians[l]));
                             }
+
                             //储存金币的列表清空
                             qians.Clear();
                         }
                     }));
                 }
             }
+
             k.Play();
         }
     }
 }
-

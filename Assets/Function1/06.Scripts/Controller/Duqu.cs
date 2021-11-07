@@ -9,11 +9,12 @@ namespace Assets.Function1._06.Scripts.Controller
     {
         //声明存储数据的列表
         public List<Read> item;
+
         //初始化对象
         private void Awake()
         {
             //读取json数据
-            TextAsset txt = Resources.Load<TextAsset>("data") ;
+            TextAsset txt = Resources.Load<TextAsset>("data");
             JSONNode jsonObject = JSON.Parse(txt.text);
             //创建对象
             for (int i = 0; i < jsonObject[0].Count; i++)
@@ -30,8 +31,6 @@ namespace Assets.Function1._06.Scripts.Controller
                 };
                 item.Add(fieldRead);
             }
-        
         }
-
     }
 }
