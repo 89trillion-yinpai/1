@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1098D279-BA1F-6368-116F-5664EEAD1F8F}</ProjectGuid>
+    <ProjectGuid>{9214B20D-9FB4-A4F3-C860-16FCDA8140A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -74,34 +74,34 @@
      <None Include="Assets\Function1\04.Resources\WW4_Effects_Sub\Effect\Soldier\FrostArcher\FrostArcher_effect\shader\Bingdong_vogeo.shader" />
      <None Include="Assets\Function1\02.ChaJian\Changelog.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -281,10 +281,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Assets/Function1/02.ChaJian/DOTween.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Assets/Function1/02.ChaJian/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本2/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -640,7 +640,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{6977AECE-C0D2-6966-F066-A076780779C4}</Project>
+      <Project>{65AB8C8C-F4B7-6035-A0B1-ECD4824910A8}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
