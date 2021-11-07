@@ -71,7 +71,7 @@
      <Compile Include="Assets\Function1\06.Scripts\Controller\Move.cs" />
      <Compile Include="Assets\Function1\06.Scripts\Model\Read.cs" />
      <Compile Include="Assets\Function1\06.Scripts\View\Manager.cs" />
-     <None Include="Assets\Function1\04.Resources\WW4_Effects_Sub\Effect\Soldier\FrostArcher\FrostArcher_effect\shader\Bingdong_vogeo.shader" />
+     <None Include="Assets\Function1\04.Materals\WW4_Effects_Sub\Effect\Soldier\FrostArcher\FrostArcher_effect\shader\Bingdong_vogeo.shader" />
      <None Include="Assets\Function1\02.ChaJian\Changelog.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/yinpai/Desktop/未命名文件夹/每日精选的副本3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
