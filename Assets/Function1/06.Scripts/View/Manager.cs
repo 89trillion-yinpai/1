@@ -1,14 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Globalization;
+﻿using Assets.Function1._06.Scripts.Controller;
 using UnityEngine;
 using UnityEngine.UI;
 public class Manager : Duqu
 {
     //声明预制件
-    public GameObject coinprefab;
-    public GameObject cardprefab;
-    public GameObject lockPrefab;
+    public GameObject Coinprefab;
+    public GameObject Cardprefab;
+    public GameObject LockPrefab;
     //声明"Duqu"对象，一会读取属性创建ui对象要用
     public Duqu read;
     //声明精灵类型图片
@@ -24,31 +22,30 @@ public class Manager : Duqu
         for (int i = 0; i < read.item.Count; i++)
         {
             //判断是金币类型的ui搭建
-            if (read.item[i].type == "2") 
+            if (read.item[i].Type == "2") 
             {
-                coinprefab = Instantiate(coinprefab,transform);
+                Coinprefab = Instantiate(Coinprefab,transform);
             }
             else
             {
                 //创建卡牌对象
-                cardprefab=Instantiate(cardprefab,transform);
-                foreach (Transform obj in cardprefab.GetComponentsInChildren<Transform>(true))
+                Cardprefab=Instantiate(Cardprefab,transform);
+                foreach (Transform obj in Cardprefab.GetComponentsInChildren<Transform>(true))
                 {
                     if (obj.name == "cards")
                     {
-                        obj.GetComponent<Image>().sprite = TureType(read.item[i].subType);
+                        obj.GetComponent<Image>().sprite = TureType(read.item[i].SubType);
                     }
                     if (obj.name == "Coins")
                     {
-                        obj.GetComponent<Text>().text=read.item[i].costGold.ToString();
-                        Debug.Log(read.item[i].costGold.ToString());
+                        obj.GetComponent<Text>().text=read.item[i].CostGold;
                     }
                 }
             }
         }
         for (int i = 0; i < (3 - (read.item.Count % 3)); ++i){}//空位加锁定界面
         {
-            Instantiate(lockPrefab,transform);       
+            Instantiate(LockPrefab,transform);       
         }
     }
 
